@@ -15,5 +15,8 @@
   "devDependencies": {
     "mdx-deck": "^1.6.7"
   },
-  "name": "step-up-portfolio-gatsbyjs"
+  "name": "step-up-portfolio-gatsbyjs",
+  "dependencies": {
+    "styled-components": "^3.4.9"
+  }
 }
