@@ -1,4 +1,7 @@
 import { Head } from 'mdx-deck'
+import FlexBox from './components/FlexBox'
+import Item from './components/Item'
+import List from './components/List'
 
 export { default as theme } from './theme'
 
@@ -37,22 +40,29 @@ I want to get to know you a bit better...
 
 # My Background
 
-- freeCodeCamp alumni
-- front-end engineer @ Digital Air Strike
-- egghead instructor
+<FlexBox>
+  <Item title="freeCodeCamp alumni" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444596/step-up-portfolio-gatsbyjs/fcc-green.jpg" link="https://www.freecodecamp.org/" alt="freecodecamp logo"/>
+  <Item title="Front End Engineer" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444673/step-up-portfolio-gatsbyjs/das-crosshair.png" link="https://digitalairstrike.com/"alt="digital air strike logo"/>
+  <Item title="egghead instructor" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538444152/step-up-portfolio-gatsbyjs/egghead-logo.png" link="https://egghead.io/" alt="egghead logo"/>
+</FlexBox>
+
 
 ---
 
 # Today's Objectives
 
-[arnold schqaggnager meme]
+<div
+  style={{ display: 'flex', marginTop: '50px', alignItems: 'center' }}
+>
+  <img src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538445280/step-up-portfolio-gatsbyjs/goals-meme.webp"
+    alt="goals meme from elf"
+  />
+  <List>
+    <li>Basic understanding of Gatsby</li>
+    <li>How to build a site</li>
+  </List>
+</div>
 
----
-
-I want YOU to leave this presentation with:
-- Basic understanding of what Gatsby
-- How to build a site
-- Where to get started
 
 ---
 
@@ -60,38 +70,46 @@ I want YOU to leave this presentation with:
 
 ---
 
-Video clip from The Great Gatsby
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/nMsacoc9DnQ?rel=0&amp;showinfo=0&amp;start=258" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 
-THIS Gatsby.js
+THIS ⬇️
 
-[insert picture of logo or website here]
-
----
-
-Founded in 2015...
-
-Started by the great @kylematthews
+<a href="https://next.gatsbyjs.org/" target="_blank">
+  <img src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538447231/gatsby_wxlxs7.png" alt="gatsbyjs logo"/>
+</a>
 
 ---
 
-3.5 million in seed funding in 2018
+Started by <a href="" target="_blank">@kylematthews</a>
 
-[epic picture from Twitter]
+- v1.0.0 released July 2017
+- v2.0.0 released September 2018
+
+
 
 ---
 
-Stats
+🤑 3.8 million in seed funding in 2018
 
-- GitHub stars
-- contributors
-- downloads etc.
-- v2 is out now...
+gatsby.org vs. gatsby.com
+
+<img style={{ width: '700px' }} src="https://www.gatsbyjs.org/static/team-in-the-park-cd925e21931da051257fbb9b993885a2-f009a.jpg" alt="gatsby inkteam"/>
+
+---
+
+# Stats
+
+- +26K ⭐️ on GitHub
+- 1,156 contributors 👩🏼‍💻
+- 39,650 weekly downloads 📥
 
 ---
 
 STRRRRONG COmmunity
+<img
+width="600px" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538448228/gatsby-gazette-2.png" alt="gatsbyjs gazette"/>
 - talk abuot the Gatsby gazzeettte
 - and talk about the Gatsby maintainers meeting, anyone can go to.
 
