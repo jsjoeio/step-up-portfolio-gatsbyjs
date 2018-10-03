@@ -2,6 +2,7 @@ import { Head } from 'mdx-deck'
 import FlexBox from './components/FlexBox'
 import Item from './components/Item'
 import List from './components/List'
+import TwoColumn from './components/TwoColumn'
 
 export { default as theme } from './theme'
 
@@ -51,9 +52,7 @@ I want to get to know you a bit better...
 
 # Today's Objectives
 
-<div
-  style={{ display: 'flex', marginTop: '50px', alignItems: 'center' }}
->
+<TwoColumn>
   <img src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538445280/step-up-portfolio-gatsbyjs/goals-meme.webp"
     alt="goals meme from elf"
   />
@@ -61,7 +60,7 @@ I want to get to know you a bit better...
     <li>Basic understanding of Gatsby</li>
     <li>How to build a site</li>
   </List>
-</div>
+</TwoColumn>
 
 
 ---
@@ -107,66 +106,91 @@ gatsby.org vs. gatsby.com
 
 ---
 
-STRRRRONG COmmunity
-<img
+# Community
+
+<TwoColumn>
+  <img
 width="600px" src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538448228/gatsby-gazette-2.png" alt="gatsbyjs gazette"/>
-- talk abuot the Gatsby gazzeettte
-- and talk about the Gatsby maintainers meeting, anyone can go to.
+  <ul style={{ textAlign: 'left' }}>
+    <li>Gatsby gazette</li>
+    <li>Public Maintainers Meeting</li>
+  </ul>
+</TwoColumn>
+---
+
+# ⚛️ Gatsby Features 🔥
 
 ---
 
-# Gatsby in 6 slides
+# 1. SSR 💁🏼‍♂️
+
+out of the box 😏
 
 ---
 
-# 1. SSR
+# 2. PWA built-in ✅
 
-[funny meme about ssr]
+<img
+style={{ height: 'auto', width: '900px' }}
+src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538531872/gatsby-offline_sz4d8u.gif" alt="video of Gatsby offline"/>
+---
+
+# 3. Plugins Library 🗂
+
+<img style={{ height: 'auto', width: '1000px' }} src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538531799/gatsby-plugin-library.png"
+alt="gatsby plugin library"
+/>
 
 ---
 
-# 2. PWA built-in
+# 4. BYOD 👜
 
-[offline it works]
+(bring your own data)
+<img style={{ height: 'auto', width: '700px' }} src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538535483/byod.png"
+alt="gatsby data map diagram"
+/>
+
 
 ---
 
-# 3. PLUGINS
+# 5. SPEED 🏃🏼‍♀️
 
-ALL THE PLUGINS meme
-
----
-
-# 4. SOMETHIGN ELSes
-
-OH YEAAAH
+"Once loaded, Gatsby prefetches resources for other pages so clicking around the site feels incredibly fast."
 
 ---
 
-# 5. ANOTHAT THANG
+# 6. Latest tech 💻
+
+- Webpack
+- React 16
+- GraphQL
+- ES6
+- modern CSS
 
 ---
 
-# 6. LAST THANG
+## DID I MENTION IT'S OPEN SOURCE 🕺🏼
 
+<iframe src="https://giphy.com/embed/xUn3CjMrJLEUMIldba" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ---
 
-# DID I MENTION IT'S OPEN SOURCE...
+# Swag 👕 🧦
 
-
-### HAZZAHHHH!!!!!
+<img style={{ height: 'auto', width: '700px' }} src="https://res.cloudinary.com/dobfxs62e/image/upload/v1538536174/gatsby-swag.png"
+alt="gatsby swag store"
+/>
 ---
 
-# SWAAAAAAG - all the swag
+# Gatsby IRL 😏
 
-[picture]
----
-
-# Gatsby IRL
-
-maybe put a carousel here???
-<iframe src="https://justdoit.nike.com/" width='100%' height='400px'/>
-
+<TwoColumn>
+  <iframe src="https://justdoit.nike.com/" width='100%' height='400px'/>
+  <List>
+    <a href="https://reactjs.org/" target="_blank"><li>ReactJS Docs</li></a>
+    <a href="https://www.stitchfix.com/" target="_blank"><li>Stich Fix</li></a>
+    <a href="https://airbnb.io/" target="_blank"><li>Airbnb Engineering & Data Science</li></a>
+  </List>
+</TwoColumn>
 ---
 
 # Why you should use it
@@ -219,15 +243,11 @@ Anything else anyone wants to share?
 
 ---
 
-Stuck? Questions? Tweet me!
-
-🐦 <a href="https://twitter.com/jsjoeio" >@jsjoeio</a>
-
----
-
 # Thank you!
 
 [picture of me] + contact information...
+
+🐦 <a href="https://twitter.com/jsjoeio" >@jsjoeio</a>
 
 ---
 
