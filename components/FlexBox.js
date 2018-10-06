@@ -6,6 +6,10 @@ const FlexBox = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  a {
+    color: #141414;
+  }
 `
 
 export default ({ children }) => (
